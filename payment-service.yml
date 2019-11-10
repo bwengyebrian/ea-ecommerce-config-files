@@ -1,5 +1,5 @@
 payment:
   paymentMethods:
     payPal: http://localhost:8097/paypal
-    bank: bank-service
-    credit: credit-card-service
+    bank: http://localhost:8099/bank
+    credit: http://localhost:8098/credit
