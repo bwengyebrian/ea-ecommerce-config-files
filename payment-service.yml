@@ -1,5 +1,5 @@
 payment:
   paymentMethods:
-    payPal: http://localhost:8097/paypal
-    bank: http://localhost:8099/bank
-    credit: http://localhost:8098/credit
+    paypal: http://paypal-payment-service.default.svc.cluster.local:8080/paypal
+    bank: http://bank-payment-service.default.svc.cluster.local:8080/bank
+    credit: http://credit-payment-service.default.svc.cluster.local:8080/credit
